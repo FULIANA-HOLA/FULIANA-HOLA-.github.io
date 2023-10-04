@@ -1,0 +1,121 @@
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    box-sizing:border-box;
+}
+
+.Encabezado {
+    background-color: mintcream;
+    flex: 0 0 100%;
+    color: red;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+}
+
+.Navegacion {
+    background-color: cornflowerblue;
+    flex: 0 0 100%;
+    color: aliceblue;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid;
+    border: 0px solid #000000;
+    background-color: red;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 19pt;
+    color: mintcream;
+    text-align: center;
+}
+
+.sidebar {
+    flex: 0 0 20%;
+    color: magenta;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    background-image: -moz-linear-gradient(top, #F08080, #DC143C);
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #F08080), color-stop(1.0, #DC143C));
+    background-color: #DDDDDD;
+    padding: 10px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12pt;
+    color: navajowhite;
+    text-align: left;
+}
+
+.main-content {
+    flex: 0 0 80%;
+    color: lime;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid;
+    background-image: -moz-linear-gradient(left, #D2691E 44%, #FF7F50 99%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.44, green), color-stop(0.99, black));
+    border: 0px solid #000000;
+    background-color: black;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 19pt;
+    color: darkgreen;
+    text-align: center;
+}
+
+.article1 {
+    margin-bottom: 30px;
+    border: 2px solid;
+    background-image: -moz-linear-gradient(left, #008000 44%, #7FFF00 99%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.44, #008000), color-stop(0.99, #7FFF00));
+    border: 0px solid #000000;
+    background-color: #FFD700;
+    z-index: -8;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 19pt;
+    color:darkgoldenrod;
+    text-align: center;
+}
+.article2 {
+    margin-bottom: 30px;
+    border: 2px solid;
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0.44, gray), color-stop(0.99, black));
+    border: 0px solid #000000;
+    background-color: black;
+    z-index: -8;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 19pt;
+    color: white;
+    text-align: center;
+}
+    body {
+    margin: 0;
+}
+
+.sect {
+    width: 100%;
+    min-height: 500px;
+}
+
+
+video {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    z-index: -1;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
+
+h2 {
+    margin: 0;
+    padding-top: 3rem;
+    padding-left: 2rem;
+}
